@@ -139,7 +139,7 @@ export class ProductOverviewWidget {
     {
       name: 'Keyboard',
       category: 'Accessories',
-      price: 149,
+      price: 14955,
       status: 'In Stock',
     },
   ];

@@ -103,7 +103,7 @@ interface City {
   
   `],
   host: {
-    class: 'stats',
+    class: 'layout-card',
   },
 })
 export class forms implements OnInit {

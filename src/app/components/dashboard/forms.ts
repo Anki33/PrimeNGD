@@ -92,31 +92,6 @@ interface City {
 </div>
   `,
   styles: [`
-  :host {
-    --body-bg: var(--p-surface-50);
-    --body-text-color: var(--p-surface-900);
-    --card-border: 1px solid var(--border-color);
-    --card-bg: var(--p-surface-0);
-    --border-color: var(--p-surface-200);
-    --text-color: var(--p-surface-700);
-    --overlay-background: #ffffff;
-  
-    display: block;
-    font-size: 14px;
-    background-color: var(--body-bg);
-    color: var(--body-text-color);
-    padding: 1rem;
-  }
-  
-  :host(.p-dark) {
-    --body-bg: var(--p-surface-950);
-    --body-text-color: var(--p-surface-50);
-    --card-border: 1px solid transparent;
-    --card-bg: var(--p-surface-900);
-    --border-color: rgba(255, 255, 255, 0.1);
-    --text-color: var(--p-surface-0);
-    --overlay-background: var(--p-surface-900);
-  }
   
   .card {
     background: var(--card-bg);
